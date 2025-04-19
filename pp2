@@ -1,0 +1,15 @@
+defget_person_details():
+name=input("enteryourname:")
+address=input("enteryouraddress:")
+email=input("enteryouremail:")
+phone=input("enteryourphonenumber:")
+returnname,address,email,phone
+defprint_person_details(name,address,email,phone):
+print("\n---PersonalDetails---")
+print(f"Name:{name}")
+print(f"Email:{email}")
+print(f"phoneNumber:{phone}")
+#Getdeatailsfromtheusername,address,email,phone=get_person_details()
+#printthedetails
+print_person_details(name,address,email,phone)
+           
